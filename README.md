@@ -8,9 +8,9 @@ This software also has seperate modes for RFI Acquisation and for Normal Acquisa
 
 Useage - Run sas_rfi.py for starting the Program
 
--ns : No Sync \n
--sch : Scheduled Time || now \n
--rfi : RFI Module \n
+-ns : No Sync.
+-sch : Scheduled Time || now.
+-rfi : RFI Module.
 
 Thanks, for checking this page out.
 
