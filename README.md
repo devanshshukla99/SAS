@@ -6,6 +6,12 @@ SAS included all necessary codes for acquiring and processing data collected thr
 
 This software also has seperate modes for RFI Acquisation and for Normal Acquisation.
 
+Useage - Run sas_rfi.py for starting the Program
+
+-ns : No Sync
+-sch : Scheduled Time || now
+-rfi : RFI Module
+
 Thanks, for checking this page out.
 
 Kindly let me know of any issues.
