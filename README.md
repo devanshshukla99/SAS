@@ -14,7 +14,10 @@ Useage - Run sas_rfi.py for starting the Program
 
 -rfi : RFI Module
 
+Installation --
+
+pip3 install -r requirements.txt
+
 Thanks, for checking this page out.
 
 Kindly let me know of any issues.
-c
