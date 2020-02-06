@@ -32,7 +32,7 @@ _liner_ = False
 
 if(_n_ != -1):
 
-    noise_floor_file_name = "/home/devansh/Desktop/SAS/SAS_E/SAS_12_2/NF/data/0.bin"
+    noise_floor_file_name = "./NF/data/0.bin"
     h = 5
 
     _liner_ = False
@@ -40,12 +40,16 @@ if(_n_ != -1):
 else:
 
     #noise_floor_file_name = "/home/devansh/Desktop/SAS/NoiseFloorLinear/data/0.bin"
-    noise_floor_file_name = "/home/devansh/Desktop/SAS/SAS_E/SAS_12_2/NF/data/0.bin"
+    noise_floor_file_name = "./NFLiner/data/0.bin"
     h = 0.1
 
 noise_floor = fromfile(noise_floor_file_name , dtype="float32")
 
-
+if(len(sys.argv) < 2):
+    print("\n Path Not Found")
+    print("\n Useage -----")
+    print("\n python3 ds_new_subtract_noise_floor.py path_to_project_folder")
+    
 path = sys.argv[1]
 
 if(path[-1] == '/'):
