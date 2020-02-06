@@ -1,0 +1,31 @@
+Fri Jan 17 16:30:18 2020
+Project = SUN_17JAN2020
+Project Folder Already Exists Overwrite..? y:n n
+SUN_17JAN2020 > Noise_Floor
+Data Written to file
+
+Project = Noise_Floor
+FC = 1420.0 MHz 
+FS = 2.4 MHz 
+Integration Time = 10.0**Currently Not Working**
+Total Time for Obs = 10
+Data Acquiring Method = 1
+
+Data Written to file
+Project = NF
+
+Project = NF
+FC = 1420.0 MHz 
+FS = 2.4 MHz 
+Integration Time = 10.0**Currently Not Working**
+Total Time for Obs = 10
+Data Acquiring Method = 1
+
+Found 1 SDR Devices
+Current Time is 2020-01-17 16:30:55.840164
+Current Time is 2020-01-17 16:30:55.840473
+Starting Acquisation Timer
+rtl_power_fftw -f 1419000000.0:1421000000.0 -e 10 -t 10.0 -m ./NF/data/0 -g 4 -d 0
+Acq Starting
+Stopping Acquisation
+Acquisation Completed at 2020-01-17 16:31:16.914178

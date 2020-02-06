@@ -1,0 +1,21 @@
+Fri Jan 17 17:11:33 2020
+Project = SUN_2s_int_2
+Project Folder Already Exists Overwrite..? y:n n
+SUN_2s_int_2 > NF
+Data Written to file
+
+Project = NF
+FC = 1420.0 MHz 
+FS = 2.4 MHz 
+Integration Time = 2.0**Currently Not Working**
+Total Time for Obs = 20
+Data Acquiring Method = 1
+
+Found 1 SDR Devices
+Current Time is 2020-01-17 17:11:56.002077
+Current Time is 2020-01-17 17:11:56.002400
+Starting Acquisation Timer
+rtl_power_fftw -f 1419000000.0:1421000000.0 -e 20 -t 2.0 -m ./NF/data/0 -g 4 -d 0
+Acq Starting
+Stopping Acquisation
+Acquisation Completed at 2020-01-17 17:12:58.450212
