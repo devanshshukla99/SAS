@@ -437,7 +437,7 @@ def data_enter():
             log("**Setting fs to 2.4 MHz**")
             data["fs"] = 2.4e6
 
-    print("Enter Integration Time **Currently Not Working**")
+    print("Enter Integration Time ")
     data["integration_time"] = float(input())
     print("Enter Total Time")
     data["time_for_obs"] = int(input())
