@@ -8,17 +8,17 @@ SAS acquires data using via rtl_power_ffw(https://github.com/AD-Vega/rtl-power-f
 
 This software also has seperate modes for RFI Acquisation and for Normal Acquisation.
 
-Useage - Run sas_rfi.py for starting the Program
+## Useage - Run sas_rfi.py for starting the Program
 
--ns : No Sync
+ 	-ns : No Sync
 
--sch : Scheduled Time || now
+	-sch : Scheduled Time || now
 
--rfi : RFI Module
+	-rfi : RFI Module
 
-Installation --
+## Installation --
 
-pip3 install -r requirements.txt
+	pip3 install -r requirements.txt
 
 Thanks, for checking this page out.
 
