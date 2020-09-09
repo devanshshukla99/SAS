@@ -1,25 +1,35 @@
 # SAS
+```
+   _____               _____ 
+  / ____|     /\      / ____|
+ | (___      /  \    | (___  
+  \___ \    / /\ \    \___ \ 
+  ____) |  / ____ \   ____) |
+ |_____/  /_/    \_\ |_____/                              
 
-Software Acquisation System for Software Defined Radios
+```
 
-SAS included all necessary codes for acquiring and processing of the collected data.
+**Software Acquisation System for Software Defined Radios**
 
-SAS acquires data using via rtl_power_ffw(https://github.com/AD-Vega/rtl-power-fftw).
+Includes all necessary codes for acquiring and processing of the collected data.
 
-This software also has seperate modes for RFI Acquisation and for Normal Acquisation.
+* Modes Available
+  * RFI Acquisation
+  * Normal Acquisation.
 
-## Useage - Run sas_rfi.py for starting the Program
-
- 	-ns : No Sync
-
-	-sch : Scheduled Time || now
-
-	-rfi : RFI Module
-
-## Installation --
+## Initial Setup --
 
 	pip3 install -r requirements.txt
 
-Thanks, for checking this page out.
+## Useage --
+**Run sas_rfi.py for starting the Program**
+	-ns : No Sync
+	-sch : Scheduled Time || now
+	-rfi : RFI Module
 
-Kindly let me know of any issues.
+Thanks for checking this page out.
+Let me know of any issues.
+
+## Credits --
+
+SAS acquires data using via [rtl_power_ffw](https://github.com/AD-Vega/rtl-power-fftw), Many thanks to its Creators and Contributors.
