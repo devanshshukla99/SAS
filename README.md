@@ -23,6 +23,7 @@ Includes all necessary codes for acquiring and processing of the collected data.
 
 ## Useage --
 **Run sas_rfi.py for starting the Program**
+
 	-ns : No Sync
 	-sch : Scheduled Time || now
 	-rfi : RFI Module
