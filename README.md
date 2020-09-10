@@ -21,7 +21,7 @@ Includes all necessary codes for acquiring and processing of the collected data.
 
 	pip3 install -r requirements.txt
 
-## Useage --
+## Usage --
 **Run sas_rfi.py for starting the Program**
 
 	-ns : No Sync
