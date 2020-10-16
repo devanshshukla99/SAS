@@ -13,17 +13,17 @@
 
 Includes all necessary codes for acquiring and processing of the collected data.
 
-* Modes Available
-  * RFI Acquisation
-  * Normal Acquisation.
+### Modes Available
+  * **RFI Acquisation**: In this mode the program collects data from start frequency to stop frequency with 2 MHz bandwidth and 1 MHz overlap for the given integration and observation times.
+  * **Normal Acquisation**
 
 ## Initial Setup --
-```
+```python
 pip3 install -r requirements.txt
 ```
 ## Usage --
 **Run sas_rfi.py for starting the Program**
-```
+```python
 python sas_rfi.py [Args]
 ```
 Args:
