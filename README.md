@@ -9,7 +9,7 @@
 
 ```
 
-**Software Acquisation System for Software Defined Radios**
+## **Software Acquisation System for Software Defined Radios**
 
 Includes all necessary codes for acquiring and processing of the collected data.
 
