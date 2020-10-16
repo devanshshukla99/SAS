@@ -18,9 +18,9 @@ Includes all necessary codes for acquiring and processing of the collected data.
   * Normal Acquisation.
 
 ## Initial Setup --
-
-	pip3 install -r requirements.txt
-
+```
+pip3 install -r requirements.txt
+```
 ## Usage --
 **Run sas_rfi.py for starting the Program**
 
