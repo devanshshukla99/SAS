@@ -39,4 +39,4 @@ Let me know of any issues.
 
 ## Credits --
 
-SAS acquires data using via [rtl_power_ffw](https://github.com/AD-Vega/rtl-power-fftw), many thanks to its Creators and Contributors.
+SAS acquires data using [rtl_power_ffw](https://github.com/AD-Vega/rtl-power-fftw), many thanks to its Creators and Contributors.
