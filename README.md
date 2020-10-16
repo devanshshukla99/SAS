@@ -23,10 +23,15 @@ pip3 install -r requirements.txt
 ```
 ## Usage --
 **Run sas_rfi.py for starting the Program**
-
-	-ns : No Sync
-	-sch : Scheduled Time || now
-	-rfi : RFI Module
+```
+python sas_rfi.py [Args]
+```
+Args:
+```
+-ns : No Sync
+-sch : Scheduled Time || now
+-rfi : RFI Module
+```
 
 Thanks for checking this page out.
 
