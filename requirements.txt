@@ -5,4 +5,4 @@ scipy==0.19.1
 numpy==1.22.0
 matplotlib==2.1.1
 pylab==0.0.2
-PyPDF2==1.27.5
+PyPDF2==1.27.9
