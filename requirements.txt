@@ -1,7 +1,7 @@
 pandas==0.22.0
 pyrtlsdr==0.2.91
 ntplib==0.3.3
-scipy==0.19.1
+scipy==1.10.0
 numpy==1.22.0
 matplotlib==2.1.1
 pylab==0.0.2
